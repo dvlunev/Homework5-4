@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8307ac13-ce64-4f3e-9be8-94cf8cbf47f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="8307ac13-ce64-4f3e-9be8-94cf8cbf47f9" name="Changes" comment="сделано ДЗ">
       <change afterPath="$PROJECT_DIR$/src/main/java/hw54/dao/EmployeeDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/hw54/dao/impl/EmployeeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw54/jdbc/ConnectionManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/hw54/model/City.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/hw54/model/Employee.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/train/dao/BookDao.java" afterDir="false" />
@@ -23,8 +15,8 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/train/jdbc/ConnectionManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/train/model/Author.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/train/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -64,6 +61,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hw54.jdbc" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,8 +76,16 @@
       <updated>1676729459366</updated>
       <workItem from="1676729461704" duration="9225000" />
       <workItem from="1676741384897" duration="2927000" />
-      <workItem from="1676792889413" duration="1346000" />
+      <workItem from="1676792889413" duration="4987000" />
     </task>
+    <task id="LOCAL-00001" summary="первый коммит">
+      <created>1676794626861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676794626862</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +101,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="первый коммит" />
+    <MESSAGE value="сделано ДЗ" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделано ДЗ" />
   </component>
 </project>
