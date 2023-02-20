@@ -59,18 +59,21 @@ public class Application {
         //Задание 2
         System.out.println("Задание 2");
         EmployeeDao employeeDao = new EmployeeDaoImpl();
+
         City city = new City(1, "Saint-Petersburg");
-        Employee dLunev = new Employee("Dmitrii", "Lunev", "male",32,city);
+
+        Employee dLunev = new Employee("Dmitrii", "Lunev", "male",32);
+
         employeeDao.createEmployee(dLunev);
 
-        System.out.println(employeeDao.getEmployeeById(3));
+        System.out.println(employeeDao.getEmployeeById(23));
 
         System.out.println();
 
         employeeDao.getAllEmployeeList().forEach(employee -> System.out.println(employee));
 
-        employeeDao.updateEmployeeAgeById(3,23);
+        employeeDao.updateEmployeeAgeById(new Employee(24,"Dmitrii", "Lunev", "male",31, city));
 
-        employeeDao.deleteEmployeeById(9);
+        employeeDao.deleteEmployeeById(24);
     }
 }

@@ -3,19 +3,19 @@ package hw54.model;
 import java.util.Objects;
 
 public class City {
-    private int cityId;
+    private long cityId;
     private String cityName;
 
-    public City(int cityId, String cityName) {
+    public City(long cityId, String cityName) {
         this.cityId = cityId;
         this.cityName = cityName;
     }
 
-    public int getCityId() {
+    public long getCityId() {
         return cityId;
     }
 
-    public void setCityId(int cityId) {
+    public void setCityId(long cityId) {
         this.cityId = cityId;
     }
 

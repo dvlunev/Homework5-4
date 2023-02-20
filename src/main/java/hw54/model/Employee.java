@@ -3,7 +3,7 @@ package hw54.model;
 import java.util.Objects;
 
 public class Employee {
-    private int id;
+    private long id;
     private String firstName;
     private String lastName;
     private String gender;
@@ -11,6 +11,13 @@ public class Employee {
     private City city;
 
     public Employee() {
+    }
+
+    public Employee(String firstName, String lastName, String gender, int age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.gender = gender;
+        this.age = age;
     }
 
     public Employee(String firstName, String lastName, String gender, int age, City city) {
@@ -21,7 +28,7 @@ public class Employee {
         this.city = city;
     }
 
-    public Employee(int id, String firstName, String lastName, String gender, int age, City city) {
+    public Employee(long id, String firstName, String lastName, String gender, int age, City city) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -30,11 +37,11 @@ public class Employee {
         this.city = city;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
